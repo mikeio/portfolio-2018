@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flexbox Grid</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+				sectionsColor: ['transparent', '#transparent', '#transparent', '#transparent'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+				responsiveWidth: 1024
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="header">
+		<div class="row">
+			<div class="col-xs-6">
+				<p>[logo]</p>
+			</div>
+			<div class="col-xs-6">
+				<p>[nav]</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="fullpage">
+		<div class="section" id="section0">
+			<div class="intro">
+				<h1>#1</h1>
+			</div>
+		</div>
+		<div class="section" id="section1">
+			<div class="intro">
+				<h1>#2</h1>
+			</div>
+		</div>
+		<div class="section" id="section2">
+			<div class="intro">
+				<h1>#3</h1>
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<div class="intro">
+				<h1>#4</h1>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="row">
+			<div class="col-xs-12 col-md-3">
+				<p>[social icons]</p>
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<p>[copywrite]</p>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<p>[email]</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
