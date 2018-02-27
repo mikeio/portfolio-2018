@@ -9,68 +9,87 @@
     <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
     <link rel="stylesheet" href="css/style.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700,900|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
-				sectionsColor: ['transparent', '#transparent', '#transparent', '#transparent'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
-				responsiveWidth: 1024
+				// responsiveWidth: 1024,
+				css3: true,
+				easing: 'easeInOutCubic',
+				easingcss3: 'ease',
+				continuousVertical: true,
+				scrollingSpeed: 700,
+				anchors: ['home', 'work', 'resume', 'contact'],
 			});
 		});
 	</script>
 </head>
 
 <body>
+
+<div class="dev"></div>
+
 	<div id="header">
-		<div class="row">
+		<div class="row middle-xs">
 			<div class="col-xs-6">
-				<p>[logo]</p>
+				<img src="img/logo.svg" id="logo">
 			</div>
 			<div class="col-xs-6">
-				<p>[nav]</p>
+				<ul id="menu">
+    				<li><a href="#work">Work</a></li>
+    				<li><a href="#resume">Resume</a></li>
+    				<li><a href="#contact">Contact</a></li>
+				</ul>
 			</div>
 		</div>
+	</div>
+
+	<div id="sidebar">
+		<div class="page_title home"><i class="fas fa-id-card"></i> Home</div>
+		<div class="page_title work"><i class="fas fa-briefcase"></i> Latest Work</div>
+		<div class="page_title resume"><i class="fas fa-file-alt"></i> My Resume</div>
+		<div class="page_title contact"><i class="fas fa-envelope"></i> Contact Me</div>
 	</div>
 
 	<div id="fullpage">
 		<div class="section" id="section0">
-			<div class="intro">
-				<h1>#1</h1>
-			</div>
+			<div class="content_container">
+				<h1>Mike Peters — <span class="em_bold">Digital Designer</span> from Atlanta, Ga that specializes in Websites, Digital Products
+and Interactive Solutions.</h1>
+</div>
 		</div>
 		<div class="section" id="section1">
-			<div class="intro">
-				<h1>#2</h1>
-			</div>
+			<h1>#2</h1>
 		</div>
 		<div class="section" id="section2">
-			<div class="intro">
-				<h1>#3</h1>
-			</div>
+			<h1>#3</h1>
 		</div>
 		<div class="section" id="section3">
-			<div class="intro">
-				<h1>#4</h1>
-			</div>
+			<h1>#4</h1>
 		</div>
 	</div>
 
 	<div id="footer">
-		<div class="row">
+		<div class="row middle-xs">
 			<div class="col-xs-12 col-md-3">
-				<p>[social icons]</p>
+				<div id="social_icons">
+					<i class="fab fa-behance"></i>
+					<i class="fab fa-github-alt"></i>
+					<i class="fab fa-linkedin-in"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
 			</div>
 			<div class="col-xs-12 col-md-6">
-				<p>[copywrite]</p>
+				<div id="copyright">© 2018 Mike Peters - All Rights Reserved.</div>
 			</div>
 			<div class="col-xs-12 col-md-3">
-				<p>[email]</p>
+				<div id="email"><i class="fas fa-envelope"></i> info@mikepeters.io</div>
 			</div>
 		</div>
 	</div>
