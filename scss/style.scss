@@ -484,8 +484,10 @@ hr {
 	padding: 2rem 1rem 4.25rem;
 
 	h1 {
+
 		&:first-of-type {
 			margin-bottom: 0;
+			margin-right: .25rem;
 		}
 		&:last-of-type {
 			margin-top: 0;
@@ -808,6 +810,10 @@ hr {
 
 		h1 {
 			margin-top: -5px;
+
+			&:first-of-type {
+				margin-right: 0;
+			}
 		}
 	}
 
