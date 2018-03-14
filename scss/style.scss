@@ -98,12 +98,51 @@ $dark-paragraph:			#8e8e90;
 	}
 }
 
+.pre_appear {
+	
+		span {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+	
+	.appear_block:not(.pre_appear) {
+		position: relative;
+		display: inline-block;
+		
+		span{
+			opacity: 0;
+			visibility: hidden;
+			animation: appear_text 0.00001s linear forwards;
+			animation-delay: 0.7s;
+		}
+	
+		&:after{
+			content: '';
+			top: 0;
+			left: 0;
+			position: absolute;
+			background: $white;
+			display: block;
+			width: 0%;
+			height: 100%;
+			animation: appear_block 1.5s ease-in-out forwards;
+		}
+	}
+	
+	.appear_block.delay {
+	
+		span{
+			animation-delay: 0.5 + 0.7s;    
+		}
+	
+		&:after{
+			animation-delay: 0.5s;
+		}
+	}
+
 wow { visibility: hidden; }
 
-.overflow-hidden {
-	position: fixed;
-	overflow-y: scroll;
-}
 
 html {
 	font-size: 16px;
@@ -116,6 +155,18 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	background-color: $black;
+
+	&.js-menu__toggle {
+		position: fixed;
+		overflow-y: scroll;
+
+		#header {
+
+			#logo {
+				opacity: 0;
+			}
+		}
+	}
 }
 
 ::selection {
@@ -276,11 +327,21 @@ hr {
   	align-items: center;
   	z-index: 3;
 
+  	.js-menu__open {
+		opacity: 1;
+		transition: opacity .6s linear;
+		transition-delay: .9s;
+	}
+
   	ul {
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
 		text-align: center;
+
+		opacity: 0;
+  		transition: opacity .3s linear;
+  		transition-delay: 0s;
 		
 		li {
 			padding: 7px;
@@ -327,6 +388,7 @@ hr {
 	}
 }
 
+
 #header {
 	padding: 2rem 1rem;
 	z-index: 4;
@@ -334,6 +396,7 @@ hr {
 	#logo {
 		width: 100%;
 		max-width: 50px;
+		transition: opacity .3s linear;
 	}
 
 	ul.nav {
@@ -941,48 +1004,6 @@ hr {
 // 1280 +
 @media (min-width: 80em) {
 
-	.pre_appear {
-	
-		span {
-			opacity: 0;
-			visibility: hidden;
-		}
-	}
-	
-	.appear_block:not(.pre_appear) {
-		position: relative;
-		display: inline-block;
-		
-		span{
-			opacity: 0;
-			visibility: hidden;
-			animation: appear_text 0.00001s linear forwards;
-			animation-delay: 0.7s;
-		}
-	
-		&:after{
-			content: '';
-			top: 0;
-			left: 0;
-			position: absolute;
-			background: $white;
-			display: block;
-			width: 0%;
-			height: 100%;
-			animation: appear_block 1.5s ease-in-out forwards;
-		}
-	}
-	
-	.appear_block.delay {
-	
-		span{
-			animation-delay: 0.5 + 0.7s;    
-		}
-	
-		&:after{
-			animation-delay: 0.5s;
-		}
-	}
 
 	h1 {
 		font-size: 3em;

@@ -13,21 +13,23 @@ $(document).ready(function(){
 	} 
 	});
 
+	// Mobile Navigation
 	$('.menu, #mobile-nav a').on('click', function() {
         $('.menu').toggleClass('menu-open');
-        $('#mobile-nav').fadeToggle();
-        $("body").toggleClass("overflow-hidden");
+        $('#mobile-nav').slideToggle(600);
+        $("body").toggleClass("js-menu__toggle");
+        $('#mobile-nav ul').toggleClass('js-menu__open');
     });
 
 });
 
 $(window).load(function() {
 
-	// Hide Loader
+	// Hide Preloader
 	$("#loading img").fadeOut(600);
 	$("#loading").delay(300).fadeOut(600);
 
-	// Block Reveal
+	// Start Block Reveal
 	$('#home h1').addClass('pre_appear')
   		setTimeout(function(){
     	$('#home h1').removeClass('pre_appear')
@@ -38,7 +40,7 @@ $(window).load(function() {
         boxClass: 'wow', // animated element css class (default is wow)
         animateClass: 'animated', // animation css class (default is animated)
         offset: 100, // distance to the element when triggering the animation (default is 0)
-        mobile: false, // trigger animations on mobile devices (default is true)
+        mobile: true, // trigger animations on mobile devices (default is true)
         live: true, // act on asynchronously loaded content (default is true)
         callback: function(box) {
             // the callback is fired every time an animation is started
