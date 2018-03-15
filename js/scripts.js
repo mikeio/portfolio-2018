@@ -7,18 +7,18 @@ $(document).ready(function(){
 			event.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
-			scrollTop: $(hash).offset().top + 25
+			scrollTop: $(hash).offset().top
 		}, 1000, function(){
 		});
 	} 
 	});
 
 	// Mobile Navigation
-	$('.menu, #mobile-nav a').on('click', function() {
-        $('.menu').toggleClass('menu-open');
-        $('#mobile-nav').slideToggle(600);
-        $("body").toggleClass("js-menu__toggle");
-        $('#mobile-nav ul').toggleClass('js-menu__open');
+	$('.menu, #nav-mobile a').on('click', function() {
+        $('.menu').toggleClass('menu-open'); // Burger Animation
+        $("body").toggleClass("js-menu__toggle"); // Toggle Scrollbars
+        $('#nav-mobile').slideToggle(600); // Slide In
+        $('#nav-mobile ul').toggleClass('js-menu__open'); // Fade in
     });
 
 });
@@ -26,16 +26,26 @@ $(document).ready(function(){
 $(window).load(function() {
 
 	// Hide Preloader
-	$("#loading img").fadeOut(600);
-	$("#loading").delay(300).fadeOut(600);
+  	setTimeout(function(){
+  	  $('#hola img').velocity({
+  	    opacity : 0.1,
+  	    translateY: "-80px"
+  	  }, {
+  	      duration: 400,
+  	      complete: function(){
+  	  $('#hola').velocity({
+  	    translateY : "-100%"
+  	    },)}
+  	  })
+  	},300)
 
 	// Start Block Reveal
 	$('#home h1').addClass('pre_appear')
   		setTimeout(function(){
     	$('#home h1').removeClass('pre_appear')
-  	}, 600)
+  	}, 1400)
 
-	// Wow.js
+	// Define Wow Options
 	var wow = new WOW({
         boxClass: 'wow', // animated element css class (default is wow)
         animateClass: 'animated', // animation css class (default is animated)
@@ -48,7 +58,11 @@ $(window).load(function() {
         },
         scrollContainer: null // optional scroll container selector, otherwise use window
     });
-    wow.init();
+
+	//Start Wow
+    setTimeout(function(){ 
+    	wow.init(); 
+    }, 900);
 
     // Rellax.js
     var rellax = new Rellax('.rellax');
