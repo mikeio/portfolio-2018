@@ -7,7 +7,7 @@ $(document).ready(function(){
 			event.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
-			scrollTop: $(hash).offset().top
+			scrollTop: $(hash).offset().top - 50
 		}, 1000, function(){
 		});
 	} 
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	$('.menu, #nav-mobile a').on('click', function() {
         $('.menu').toggleClass('menu-open'); // Burger Animation
         $("body").toggleClass("js-menu__toggle"); // Toggle Scrollbars
-        $('#nav-mobile').slideToggle(600); // Slide In
+        $('#nav-mobile').slideToggle(450); // Slide In
         $('#nav-mobile ul').toggleClass('js-menu__open'); // Fade in
     });
 
@@ -40,10 +40,10 @@ $(window).load(function() {
   	},300)
 
 	// Start Block Reveal
-	$('#home h1').addClass('pre_appear')
+	$('#home__section h1').addClass('pre_appear')
   		setTimeout(function(){
-    	$('#home h1').removeClass('pre_appear')
-  	}, 1400)
+    	$('#home__section h1').removeClass('pre_appear')
+  	}, 1200)
 
 	// Define Wow Options
 	var wow = new WOW({
@@ -71,7 +71,7 @@ $(window).load(function() {
 
 // Hide Down Arrow
 $(window).scroll(function(){
-	$("#scroll_down").css("opacity", 1 - $(window).scrollTop() / 350);
+	$("#scroll_down").css("opacity", 1 - $(window).scrollTop() / 500);
 });
 
 
