@@ -2,18 +2,16 @@
 $(document).ready(function(){
 
 	// Smooth Scroll
-	$("a").on('click', function(event) {
-		if (this.hash !== "") {
-			event.preventDefault();
-		var hash = this.hash;
-		$('html, body').animate({
-			scrollTop: $(hash).offset().top - 50
-		}, 1000, function(){
-		});
-	} 
+	$('a').click(function(){
+	    var top = $('body').find($(this).attr('href')).offset().top;
+	    $('html, body').animate({
+	        scrollTop: top
+	    },1500, 'easeInOutCubic');
+	
+	    return false;
 	});
 
-	// Mobile Navigation
+	// Mobile Nav
 	$('.menu, #nav-mobile a').on('click', function() {
         $('.menu').toggleClass('menu-open'); // Burger Animation
         $("body").toggleClass("js-menu__toggle"); // Toggle Scrollbars
@@ -40,7 +38,6 @@ $(window).load(function() {
   	},300)
 
 	// Start Block Reveal
-	$('#home__section h1').addClass('pre_appear')
   		setTimeout(function(){
     	$('#home__section h1').removeClass('pre_appear')
   	}, 1200)

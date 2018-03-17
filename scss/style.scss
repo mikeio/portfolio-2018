@@ -2,9 +2,10 @@ $white:						#ffffff;
 $light-accent:				#e9eaea;
 $light-title:				#b9babc;
 $light-paragraph:			#959699;
-
-$black:						#1C1D21;
-$dark-accent:				#2C2D33;
+$off-white:					#F4F7F6;
+$black:						#16161a;
+$dark-accent:				#25262b;
+$dark-accent_alt:			#1c1d21;
 $dark-title:				#67676a;
 $dark-paragraph:			#8e8e90;
 
@@ -242,7 +243,7 @@ h1 {
 	font-family: 'Tiempos Headline';
 	font-weight: 800;
 	line-height: 1.4;
-	margin: 1.125rem 0 0.750rem;
+	margin: 0.875rem 0 0.750rem;
 	font-size: 1.75em;
 }
 
@@ -280,7 +281,7 @@ a.btn {
 	font-size: 0.688em;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	padding: 1.25rem 1.5rem;
+	padding: 1.125rem 1.35rem;
 	font-weight: 600;
 	display: inline-block;
 	overflow: hidden;
@@ -302,7 +303,7 @@ a.btn {
 	}
 
 	&:hover {
-		transform: translateY(-15%);
+		transform: translateY(-10px);
 
 		span {
 			transform: translateY(-350%);
@@ -350,7 +351,7 @@ hr {
 #hola{
     width: 100%;
     height: 100%;
-    background-color: #F4F7F6;
+    background-color: $off-white;
     position: fixed;
     z-index: 999;
     display: flex;
@@ -451,8 +452,9 @@ hr {
 
 	#logo {
 		width: 100%;
-		max-width: 48px;
+		max-width: 50px;
 		transition: opacity .3s linear;
+		will-change: opacity;
 	}
 
 	ul.nav {
@@ -482,10 +484,11 @@ hr {
 
 	.menu {
 		cursor: pointer;
-		width: 25px;
+		width: 23px;
 		margin-left: auto;
 		z-index: 99;
 		position: relative;
+		margin-top: -4px;
 		  
 		span {
 		   	width: 100%;
@@ -507,7 +510,7 @@ hr {
 		&:hover {
 		   	span {
 		   		&:nth-child(1) {
-		   			width: 25px;
+		   			width: 23px;
 		   		}
 		   	}
 		}
@@ -518,8 +521,8 @@ hr {
 			    transform-origin: 50% 50%;
 			   
 			    &:nth-child(1) {
-			    	width: 25px;
-			    	transform: rotate(45deg) translate(5px,5px);
+			    	width: 23px;
+			    	transform: rotate(45deg) translate(5px, 5px);
 			   	}
 			   
 			   	&:nth-child(2) {
@@ -527,7 +530,7 @@ hr {
 			   	}
 			   
 			   	&:nth-child(3) {
-			    	transform: rotate(-45deg) translate(5px,-5px);
+			    	transform: rotate(-45deg) translate(5px, -5px);
 			   	}
 			}
 		}
@@ -651,13 +654,37 @@ hr {
 		.work_item {
 			margin-bottom: 2.5rem;
 
-			img {
-				margin-bottom: -5px;
+			.single_item {
+				background: $off-white;
+				overflow: hidden;
+				transform: translateY(0);
+				transition: all .3s ease-in-out;
+
+				&:hover {
+
+					transform: translateY(-10px);
+
+					img {
+						opacity: .75;
+					}
+				}
+
+				img {
+					margin-bottom: -5px;
+					opacity: 1;
+					transition: all .3s ease-in-out;
+					-webkit-backface-visibility: hidden;
+				}
 			}
 
 			.client_logo {
 				background: $white;
-				text-align: center;
+				opacity: 1;
+				transition: all .3s ease-in-out;
+
+				&:hover {
+					opacity: .75;
+				}
 			}
 
 		}
@@ -731,6 +758,7 @@ hr {
 #contact__section {
 	position: relative;
 	padding: 5rem 1rem;
+	overflow: hidden;
 
 	&::before {
 		position: absolute;
@@ -795,7 +823,7 @@ hr {
 
 #copyright {
 	padding: 1.25rem 1rem;
-	background-color: $black;
+	background-color: $dark-accent_alt;
 
 	p {
 		margin-bottom: 0;
@@ -835,6 +863,7 @@ hr {
 	h1 {
 		font-size: 2.35rem;
 		margin-bottom: 0.875rem;
+		margin-top: 1rem;
 	}
 
 	p {
@@ -844,6 +873,7 @@ hr {
 	h4 {
 		font-size: 0.813em;
 	}
+
 	
 	#header {
 
@@ -1006,6 +1036,10 @@ hr {
 		font-size: 1.063em;
 	}
 
+	a.btn {
+		padding: 1.25rem 1.5rem;
+	}
+
 	#main_container {
 
 		#swirl01 {
@@ -1093,7 +1127,7 @@ hr {
 
 	h1 {
 		font-size: 3em;
-		margin: 1.125rem 0;
+		margin: 1rem 0;
 	}
 
 	p {
