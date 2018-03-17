@@ -714,7 +714,7 @@ hr {
 		left: 0;
 		top: 0;
 		width: 100%;
-		height: 106%;
+		height: 100%;
 		background-image: url('../img/swirl03.png');
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
@@ -957,7 +957,6 @@ hr {
 
 		#swirl03 {
 			width: 50%;
-			background-size: 100% 100%;
 		}
 
 		.title_hr {
@@ -1228,6 +1227,10 @@ hr {
 
 		.title_hr {
 			margin-bottom: .5rem;
+		}
+
+		#swirl03 {
+			height: 145%;
 		}
 
 		#view_resume {

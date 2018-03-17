@@ -56,7 +56,7 @@ $(window).load(function() {
         scrollContainer: null // optional scroll container selector, otherwise use window
     });
 
-	//Start Wow
+	// Start Wow
     setTimeout(function(){ 
     	wow.init(); 
     }, 900);
@@ -70,5 +70,17 @@ $(window).load(function() {
 $(window).scroll(function(){
 	$("#scroll_down").css("opacity", 1 - $(window).scrollTop() / 500);
 });
+
+// Swirl #2 Effects
+var swirl02 = $('#swirl02');
+$(window).resize(function(){
+	if ($(window).width() >= 1280){	
+		$(window).scroll(function () {
+			var st = $(this).scrollTop();
+			swirl02.css({'background-position':'center calc(0% + '+(st*-.09375)+'px)'});
+		});
+	}	
+});
+
 
 
