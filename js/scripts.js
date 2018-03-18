@@ -23,19 +23,22 @@ $(document).ready(function(){
 
 $(window).load(function() {
 
-	// Hide Preloader
-  	setTimeout(function(){
-  	  $('#hola img').velocity({
-  	    opacity : 0.1,
-  	    translateY: "-80px"
-  	  }, {
-  	      duration: 400,
-  	      complete: function(){
-  	  $('#hola').velocity({
-  	    translateY : "-100%"
-  	    },)}
-  	  })
-  	},300)
+	setTimeout(function(){
+                $('#hola img').velocity({
+                    opacity : 0.1,
+                    translateY: "-80px"
+                }, {
+                    duration: 400,
+                    complete: function(){
+                    $('#hola').velocity({
+                    translateY : "-100%"
+                }, {
+                    duration: 1000,
+                    easing: [0.7,0,0.3,1],
+                })  
+                    }
+                })
+            },300)
 
 	// Start Block Reveal
   		setTimeout(function(){
@@ -74,7 +77,7 @@ $(window).scroll(function(){
 // Swirl #2 Effects
 var swirl02 = $('#swirl02');
 $(window).resize(function(){
-	if ($(window).width() >= 1280){	
+	if ($(window).width() > 1280){	
 		$(window).scroll(function () {
 			var st = $(this).scrollTop();
 			swirl02.css({'background-position':'center calc(0% + '+(st*-.09375)+'px)'});

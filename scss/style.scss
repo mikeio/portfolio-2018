@@ -116,6 +116,7 @@ $dark-paragraph:			#8e8e90;
 			visibility: hidden;
 			animation: appear_text 0.00001s linear forwards;
 			animation-delay: 0.62s;
+			animation-iteration-count: 1;
 		}
 	
 		&:after{
@@ -128,6 +129,7 @@ $dark-paragraph:			#8e8e90;
 			width: 0%;
 			height: 100%;
 			animation: appear_block 1.25s ease-in-out forwards;
+			animation-iteration-count: 1;
 		}
 	}
 	
