@@ -77,14 +77,12 @@ $(window).scroll(function(){
 
 // Swirl #2 Effects
 var swirl02 = $('#swirl02');
-$(window).resize(function(){
 	if ($(window).width() > 1280){	
 		$(window).scroll(function () {
 			var st = $(this).scrollTop();
 			swirl02.css({'background-position':'center calc(0% + '+(st*-.09375)+'px)'});
 		});
 	}	
-});
 
 
 
