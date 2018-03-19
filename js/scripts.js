@@ -1,16 +1,13 @@
-
 $(document).ready(function(){
-
 	// Smooth Scroll
 	$('a').click(function(){
 	    var top = $('body').find($(this).attr('href')).offset().top;
 	    $('html, body').animate({
 	        scrollTop: top
-	    },1500, 'easeInOutCubic');
+	    },1200, 'easeInOutCubic');
 	
 	    return false;
 	});
-
 	// Mobile Nav
 	$('.menu, #nav-mobile a').on('click', function() {
         $('.menu').toggleClass('menu-open'); // Burger Animation
@@ -18,11 +15,9 @@ $(document).ready(function(){
         $('#nav-mobile').slideToggle(450); // Slide In
         $('#nav-mobile ul').toggleClass('js-menu__open'); // Fade in
     });
-
 });
 
 $(window).load(function() {
-
 	// Preloader
 	setTimeout(function(){
         $('#hola img').velocity({
@@ -40,12 +35,10 @@ $(window).load(function() {
             }
         })
     },300)
-
 	// Start Block Reveal
   		setTimeout(function(){
     	$('#home__section h1').removeClass('pre_appear')
   	}, 1200)
-
 	// Define Wow Options
 	var wow = new WOW({
         boxClass: 'wow', // animated element css class (default is wow)
@@ -59,15 +52,12 @@ $(window).load(function() {
         },
         scrollContainer: null // optional scroll container selector, otherwise use window
     });
-
 	// Start Wow
     setTimeout(function(){ 
     	wow.init(); 
     }, 900);
-
     // Rellax.js
     var rellax = new Rellax('.rellax');
-
     // Swirl #2 Effects
     var swirl02 = $('#swirl02');
     if ($(window).width() > 1280){  
@@ -76,13 +66,9 @@ $(window).load(function() {
             swirl02.css({'background-position':'center calc(0% + '+(st*-.09375)+'px)'});
     });
 }   
-
 });
-
 // Hide Down Arrow
 $(window).scroll(function(){
 	$("#scroll_down").css("opacity", 1 - $(window).scrollTop() / 500);
 });
-
-
 

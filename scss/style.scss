@@ -10,19 +10,19 @@ $dark-title:				#67676a;
 $dark-paragraph:			#8e8e90;
 
 @font-face {
-    font-family: 'Tiempos Headline';
-    src: url('../fonts/TiemposHeadline-Regular.woff2') format('woff2'),
-        url('../fonts/TiemposHeadline-Regular.woff') format('woff'),
-        url('../fonts/TiemposHeadline-Regular.ttf') format('truetype');
+    font-family: 'Theadline';
+    src: url('../fonts/Theadline-Regular.woff2') format('woff2'),
+        url('../fonts/Theadline-Regular.woff') format('woff'),
+        url('../fonts/Theadline-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Tiempos Headline';
-    src: url('../fonts/TiemposHeadline-Bold.woff2') format('woff2'),
-    	url('../fonts/TiemposHeadline-Bold.woff') format('woff'),
-        url('../fonts/TiemposHeadline-Bold.ttf') format('truetype');
+    font-family: 'Theadline';
+    src: url('../fonts/Theadline-Bold.woff2') format('woff2'),
+    	url('../fonts/Theadline-Bold.woff') format('woff'),
+        url('../fonts/Theadline-Bold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
@@ -33,7 +33,9 @@ $dark-paragraph:			#8e8e90;
 }
 
 #home__section .row,
+#scroll_down,
 #work__section .row,
+#view_projects,
 #resume__section .row,
 #contact__section .row,
 #copyright {
@@ -176,7 +178,7 @@ body {
 }
 
 h1 {
-	font-family: 'Tiempos Headline';
+	font-family: 'Theadline';
 	font-weight: 800;
 	line-height: 1.4;
 	margin: 0.875rem 0 0.750rem;
@@ -346,7 +348,7 @@ hr {
 			a {
 				position: relative;
 				color: $white;
-				font-family: 'Tiempos Headline';
+				font-family: 'Theadline';
     			font-weight: 800;
     			line-height: 1.4;
     			font-size: 1.875rem;
