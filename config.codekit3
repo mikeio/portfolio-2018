@@ -130,14 +130,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/etc\/logo.png": {
+	"\/img\/etc\/signature.png": {
 		"ft": 32768,
-		"iS": 4102,
+		"iS": 3085,
 		"oA": 0,
-		"oAP": "\/img\/etc\/logo.png",
+		"oAP": "\/img\/etc\/signature.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
