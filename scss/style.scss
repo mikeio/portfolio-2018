@@ -9,11 +9,6 @@ $dark-accent_alt:			#1c1d21;
 $dark-title:				#67676a;
 $dark-paragraph:			#8e8e90;
 
-// div {
-// border: 1px solid red;
-// }
-
-
 @font-face {
     font-family: 'Tiempos Headline';
     src: url('../fonts/TiemposHeadline-Regular.woff2') format('woff2'),
@@ -32,18 +27,29 @@ $dark-paragraph:			#8e8e90;
     font-style: normal;
 }
 
-@keyframes appear_block {
+#header .row {
+	z-index: 4;
+	position: relative;
+}
 
+#home__section .row,
+#work__section .row,
+#resume__section .row,
+#contact__section .row,
+#copyright {
+	z-index: 3;
+	position: relative;
+}
+
+@keyframes appear_block {
 	0% {
     	left: 0;
 		width: 0%;
 	}
-
 	50% {
     	left: 0;
 		width: 100%;
 	}
-
 	100%{
 		left: 100%;
 		width: 0%;
@@ -51,12 +57,10 @@ $dark-paragraph:			#8e8e90;
 }
 
 @keyframes appear_text {
-
 	0% {
 		opacity: 0;
 		visibility: hidden;
 	}
-
 	100%{
 		opacity: 1;
 		visibility: visible;
@@ -100,7 +104,6 @@ $dark-paragraph:			#8e8e90;
 }
 
 .pre_appear {
-	
 		span {
 			opacity: 0;
 			visibility: hidden;
@@ -110,14 +113,12 @@ $dark-paragraph:			#8e8e90;
 	.appear_block:not(.pre_appear) {
 		position: relative;
 		display: inline-block;
-
 		span{
 			opacity: 0;
 			visibility: hidden;
 			animation: appear_text 0.00001s linear forwards;
 			animation-delay: 0.62s;
 		}
-	
 		&:after{
 			content: '';
 			top: 5%;
@@ -132,11 +133,9 @@ $dark-paragraph:			#8e8e90;
 	}
 	
 	.appear_block.delay {
-	
 		span{
 			animation-delay: 0.3 + 0.7s;    
 		}
-	
 		&:after{
 			animation-delay: 0.3s;
 		}
@@ -144,53 +143,6 @@ $dark-paragraph:			#8e8e90;
 
 .wow { 
 	visibility: hidden;
-}
-
-a.strike {
-
-	span {
-  		position: relative;
-  		display: inline;
-  		cursor: pointer;
-  		padding: 0 5px;
-
-  		&::before {
-  			left: 0;
-  		}
-
-  		&::after {
-  			right: 0;
-  			background: $dark-accent;
-  			transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-  		}
-
-  		&::before,
-  		&::after {
-  			content: '';
-  			width: 0%;
-  			height: 7px;
-  			position: absolute;
-  			bottom: 2px;
-  			margin-top: -2px;
-  			background: $dark-accent;
-  			z-index: -1;
-  		}
-
-  		&:hover {
-  			&::before {
-  				background: $dark-accent;
- 				width: 100%;
- 				transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-  			}
-
-  			&::after {
-  				background: transparent;
-  				width: 100%;
-  				transition: 0s;
-  			}
-  		}
-	}
-
 }
 
 
@@ -222,22 +174,6 @@ body {
 ::selection {
   background: $white;
 }
-
-#header,
-#home__section,
-#work__section h1, 
-#work__section h4,
-#work__section .work_item,
-#work__section .row,
-#work__section #project_container #view_projects,
-#resume__section .row,
-#contact__section .row,
-#contact__section #contact_container,
-#contact__section #contact_details,
-#copyright {
-	z-index: 3;
-	position: relative;
-} 
 
 h1 {
 	font-family: 'Tiempos Headline';
@@ -448,7 +384,6 @@ hr {
 
 #header {
 	padding: 2rem 1rem;
-	z-index: 4;
 
 	#logo {
 		width: 100%;
@@ -679,12 +614,6 @@ hr {
 
 			.client_logo {
 				background: $white;
-				opacity: 1;
-				transition: all .3s ease-in-out;
-
-				&:hover {
-					opacity: .75;
-				}
 			}
 
 		}
@@ -703,7 +632,7 @@ hr {
 }
 
 #resume__section {
-	padding: 5rem 1rem;
+	padding: 5rem 1rem 6rem;
 	background: #fff;
 	position: relative;
 	overflow: hidden;
@@ -758,7 +687,6 @@ hr {
 #contact__section {
 	position: relative;
 	padding: 5rem 1rem;
-	overflow: hidden;
 
 	&::before {
 		position: absolute;
@@ -953,7 +881,8 @@ hr {
 	}
 
 	#resume__section {
-		padding: 9rem 1rem;
+		padding: 9rem 1rem 10rem;
+		overflow: hidden;
 
 		#swirl03 {
 			width: 50%;
@@ -983,7 +912,7 @@ hr {
 	}
 
 	#contact__section {
-		padding: 9rem 1rem;
+		padding: 8rem 1rem;
 
 		h1 {
 			margin-top: -5px;
@@ -1099,12 +1028,12 @@ hr {
 	}
 
 	#resume__section {
-		padding: 11rem 1rem;
+		padding: 11rem 1rem 13rem;
 	}
 
 
 	#contact__section {
-		padding: 11rem 1rem;
+		padding: 10rem 1rem;
 
 		#swirl01 {
 			background-size: 100% 100%;
@@ -1112,6 +1041,10 @@ hr {
 
 		h4 {
 			margin-top: 2px;
+		}
+
+		#phone {
+			margin-left: 20px;
 		}
 	}
 
@@ -1223,7 +1156,7 @@ hr {
 	}
 
 	#resume__section {
-		padding: 13rem 1rem;
+		padding: 13rem 1rem 15rem;
 
 		.title_hr {
 			margin-bottom: .5rem;
@@ -1245,7 +1178,7 @@ hr {
 
 
 	#contact__section {
-		padding: 13rem 1rem;
+		padding: 12rem 1rem;
 
 		h1 {
 			margin-top: -7px;

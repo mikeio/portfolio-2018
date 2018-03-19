@@ -441,9 +441,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/jquery-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -451,9 +451,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/rellax.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -464,6 +464,16 @@
 		"oA": 1,
 		"oAP": "\/js\/scripts.min.js",
 		"oF": 3,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/wave.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/wave-min.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
