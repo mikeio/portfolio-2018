@@ -111,9 +111,9 @@
 	"\/img\/aura-logo.png": {
 		"ft": 32768,
 		"iS": 15765,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/aura-logo.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -122,9 +122,9 @@
 	"\/img\/aura@2x.png": {
 		"ft": 32768,
 		"iS": 157442,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/aura@2x.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -133,9 +133,9 @@
 	"\/img\/etc\/signature.png": {
 		"ft": 32768,
 		"iS": 3085,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/etc\/signature.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -144,9 +144,9 @@
 	"\/img\/favicon\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 15260,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/android-chrome-192x192.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -155,9 +155,9 @@
 	"\/img\/favicon\/android-chrome-256x256.png": {
 		"ft": 32768,
 		"iS": 21616,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/android-chrome-256x256.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -166,9 +166,9 @@
 	"\/img\/favicon\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 10581,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/apple-touch-icon.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -177,16 +177,16 @@
 	"\/img\/favicon\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/browserconfig.xml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/img\/favicon\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 872,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/favicon-16x16.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -195,9 +195,9 @@
 	"\/img\/favicon\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1461,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/favicon-32x32.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -206,16 +206,16 @@
 	"\/img\/favicon\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/favicon.ico",
-		"oF": 0
+		"oF": 1
 		},
 	"\/img\/favicon\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 8079,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/mstile-150x150.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -224,9 +224,9 @@
 	"\/img\/favicon\/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/safari-pinned-tab.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -234,16 +234,16 @@
 	"\/img\/favicon\/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/img\/favicon\/site.webmanifest",
-		"oF": 0
+		"oF": 1
 		},
 	"\/img\/loading.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/img\/loading.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -261,9 +261,9 @@
 	"\/img\/sendgrid-logo.png": {
 		"ft": 32768,
 		"iS": 57965,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/sendgrid-logo.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -272,9 +272,9 @@
 	"\/img\/sendgrid@2x.png": {
 		"ft": 32768,
 		"iS": 221633,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/sendgrid@2x.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -283,9 +283,9 @@
 	"\/img\/swirl01.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/swirl01.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -294,9 +294,9 @@
 	"\/img\/swirl02.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/swirl02.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -305,9 +305,9 @@
 	"\/img\/swirl03.png": {
 		"ft": 32768,
 		"iS": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/swirl03.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
@@ -316,9 +316,9 @@
 	"\/img\/wave01.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/img\/wave01.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -326,9 +326,9 @@
 	"\/img\/wave02.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/img\/wave02.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
