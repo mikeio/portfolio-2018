@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Theadline';
+    src: url('../fonts/Theadline-Regular.woff2') format('woff2'),
+        url('../fonts/Theadline-Regular.woff') format('woff'),
+        url('../fonts/Theadline-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Theadline';
+    src: url('../fonts/Theadline-Bold.woff2') format('woff2'),
+    	url('../fonts/Theadline-Bold.woff') format('woff'),
+        url('../fonts/Theadline-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}

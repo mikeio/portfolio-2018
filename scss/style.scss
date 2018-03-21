@@ -9,143 +9,9 @@ $dark-accent_alt:			#1c1d21;
 $dark-title:				#67676a;
 $dark-paragraph:			#8e8e90;
 
-@font-face {
-    font-family: 'Theadline';
-    src: url('../fonts/Theadline-Regular.woff2') format('woff2'),
-        url('../fonts/Theadline-Regular.woff') format('woff'),
-        url('../fonts/Theadline-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
+@import "fonts";
+@import "effects";
 
-@font-face {
-    font-family: 'Theadline';
-    src: url('../fonts/Theadline-Bold.woff2') format('woff2'),
-    	url('../fonts/Theadline-Bold.woff') format('woff'),
-        url('../fonts/Theadline-Bold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-
-#header .row {
-	z-index: 4;
-	position: relative;
-}
-
-#home__section .row,
-#scroll_down,
-#work__section .row,
-#view_projects,
-#resume__section .row,
-#contact__section .row,
-#copyright {
-	z-index: 3;
-	position: relative;
-}
-
-@keyframes appear_block {
-	0% {
-    	left: 0;
-		width: 0%;
-	}
-	50% {
-    	left: 0;
-		width: 100%;
-	}
-	100%{
-		left: 100%;
-		width: 0%;
-	}
-}
-
-@keyframes appear_text {
-	0% {
-		opacity: 0;
-		visibility: hidden;
-	}
-	100%{
-		opacity: 1;
-		visibility: visible;
-	}
-}
-
-.slideUp {
-	display: inline-block;
-	overflow: hidden;
-
-	span {
-		position: relative;
-		display: inline-block;
-		transition: transform 0.3s;
-		padding: 6px 0;
-
-		&::before {
-			position: absolute;
-			white-space: nowrap;	
-			top: 100%;
-			content: attr(data-hover);
-  			padding: 6px 0;
-		}
-	}
-}
-
-.bounce {
-	animation: bounce 3s infinite;
-}
-
-@keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {
-		transform: translateY(0);
-	}
-	40% {
-		transform: translateY(-50%);
-	}
-	60% {
-		transform: translateY(-25%);
-	}
-}
-
-.pre_appear {
-		span {
-			opacity: 0;
-			visibility: hidden;
-		}
-	}
-	
-	.appear_block:not(.pre_appear) {
-		position: relative;
-		display: inline-block;
-		span{
-			opacity: 0;
-			visibility: hidden;
-			animation: appear_text 0.00001s linear forwards;
-			animation-delay: 0.62s;
-		}
-		&:after{
-			content: '';
-			top: 5%;
-			left: 0;
-			position: absolute;
-			background: $white;
-			display: block;
-			width: 0%;
-			height: 90%;
-			animation: appear_block 1.25s ease-in-out forwards;
-		}
-	}
-	
-	.appear_block.delay {
-		span{
-			animation-delay: 0.3 + 0.7s;    
-		}
-		&:after{
-			animation-delay: 0.3s;
-		}
-	}
-
-.wow { 
-	visibility: hidden;
-}
 
 
 html {
@@ -171,10 +37,6 @@ body {
 			}
 		}
 	}
-}
-
-::selection {
-  background: $white;
 }
 
 h1 {
@@ -368,7 +230,7 @@ hr {
 		.social {
 
 			a {
-				color: $dark-accent;
+				color: darken($dark-title,20%);
 
 				.svg-inline--fa {
 					margin: 0 9px;
@@ -495,6 +357,9 @@ hr {
 
 	p {
 		color: $dark-paragraph;
+		max-width: 675px;
+    	margin-left: 0;
+    	display: inline-block;
 	}
 
 	.social_icons {
@@ -716,7 +581,7 @@ hr {
 		left: 50%;
 		top: 0;
 		width: 50%;
-		height: 107%;
+		height: 100%;
 		background-image: url('../img/swirl01.png');
 		background-size: auto 100%;
 		background-repeat: no-repeat;
