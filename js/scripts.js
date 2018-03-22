@@ -37,7 +37,7 @@ $(window).load(function() {
     },300)
 	// Start Block Reveal
   		setTimeout(function(){
-    	$('#home__section h1').removeClass('pre_appear')
+    	$('#home__section h1').addClass('reveal')
   	}, 1200)
 	// Define Wow Options
 	var wow = new WOW({
