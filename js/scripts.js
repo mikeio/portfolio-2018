@@ -84,7 +84,7 @@ $(window).scroll(function(){
     var rev1 = new RevealFx(document.querySelector("#rev-1"), {
       revealSettings: {
         backgroundColor: "#ffffff",
-        delay: 2,
+        delay: 1.6,
         onCover: function(contentEl, revealerEl) {
           contentEl.style.opacity = 1;
         }
@@ -95,7 +95,7 @@ $(window).scroll(function(){
     var rev2 = new RevealFx(document.querySelector("#rev-2"), {
       revealSettings: {
         backgroundColor: "#ffffff",
-        delay: 2.3,
+        delay: 1.9,
         onCover: function(contentEl, revealerEl) {
           contentEl.style.opacity = 1;
         }
