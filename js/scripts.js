@@ -27,12 +27,12 @@ $(window).load(function() {
             opacity : 0.1,
             translateY: "-80px"
         }, {
-            duration: 400,
+            duration: 350,
             complete: function(){
             $('#hola').velocity({
             translateY : "-100%"
         }, {
-            duration: 1000,
+            duration: 900,
             easing: [0.7,0,0.3,1],
         })  
             }
@@ -56,7 +56,7 @@ $(window).load(function() {
 	// Start Wow
     setTimeout(function(){ 
     	wow.init(); 
-    }, 900);
+    }, 300);
 
     // Rellax.js
     var rellax = new Rellax('.rellax');
@@ -78,12 +78,13 @@ $(window).scroll(function(){
 
 // Block Reveal
 (function() {
-  setTimeout(init, 1300);
+  setTimeout(init, 0);
 
   function init() {
     var rev1 = new RevealFx(document.querySelector("#rev-1"), {
       revealSettings: {
         backgroundColor: "#ffffff",
+        delay: 2,
         onCover: function(contentEl, revealerEl) {
           contentEl.style.opacity = 1;
         }
@@ -94,7 +95,7 @@ $(window).scroll(function(){
     var rev2 = new RevealFx(document.querySelector("#rev-2"), {
       revealSettings: {
         backgroundColor: "#ffffff",
-        delay: 0.3,
+        delay: 2.3,
         onCover: function(contentEl, revealerEl) {
           contentEl.style.opacity = 1;
         }
