@@ -12,7 +12,9 @@ $dark-paragraph:			#8e8e90;
 @import "fonts";
 @import "effects";
 
-
+ddsiv {
+	border: 1px solid red;
+}
 
 html {
 	font-size: 16px;
@@ -358,8 +360,6 @@ hr {
 
 	p {
 		color: $dark-paragraph;
-		max-width: 675px;
-    	margin-left: 0;
     	display: inline-block;
 	}
 
@@ -608,6 +608,10 @@ hr {
 				list-style-type: none;
 				line-height: 1.67;
 				font-size: 1em;
+
+				&:first-of-type {
+					margin-top: -7px;
+				}
 			}
 		}
 
