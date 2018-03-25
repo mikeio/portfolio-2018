@@ -577,6 +577,15 @@ hr {
 		color: $dark-paragraph;
 	}
 
+	#swirl_container {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+
 	#swirl01 {
 		position: absolute;
 		left: 50%;
