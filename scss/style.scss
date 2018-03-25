@@ -12,7 +12,7 @@ $dark-paragraph:			#8e8e90;
 @import "fonts";
 @import "effects";
 
-ddsiv {
+ddiv {
 	border: 1px solid red;
 }
 
@@ -915,8 +915,16 @@ hr {
 			margin-top: 2px;
 		}
 
-		#phone {
-			margin-left: 20px;
+		#contact_details {
+
+			.col-sm-3 {
+				flex-basis: 20%;
+    			max-width: 20%;
+			}
+
+			#phone {
+				margin-left: 1.125rem;
+			}
 		}
 	}
 
@@ -1051,6 +1059,10 @@ hr {
 
 	#contact__section {
 		padding: 12rem 1rem;
+
+		#swirl01 {
+			height: 110%;
+		}
 
 		h1 {
 			margin-top: -7px;
