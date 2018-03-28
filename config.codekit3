@@ -66,46 +66,32 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
-	"\/fonts\/TiemposHeadline-Bold.ttf": {
+	"\/fonts\/TiemposHeadlineWeb-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/TiemposHeadline-Bold.ttf",
+		"oAP": "\/fonts\/TiemposHeadlineWeb-Bold.eot",
 		"oF": 0
 		},
-	"\/fonts\/TiemposHeadline-Bold.woff": {
+	"\/fonts\/TiemposHeadlineWeb-Bold.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/TiemposHeadline-Bold.woff",
+		"oAP": "\/fonts\/TiemposHeadlineWeb-Bold.ttf",
 		"oF": 0
 		},
-	"\/fonts\/TiemposHeadline-Bold.woff2": {
+	"\/fonts\/TiemposHeadlineWeb-Bold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/TiemposHeadline-Bold.woff2",
+		"oAP": "\/fonts\/TiemposHeadlineWeb-Bold.woff",
 		"oF": 0
 		},
-	"\/fonts\/TiemposHeadline-Regular.ttf": {
+	"\/fonts\/TiemposHeadlineWeb-Bold.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/TiemposHeadline-Regular.ttf",
-		"oF": 0
-		},
-	"\/fonts\/TiemposHeadline-Regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/TiemposHeadline-Regular.woff",
-		"oF": 0
-		},
-	"\/fonts\/TiemposHeadline-Regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/TiemposHeadline-Regular.woff2",
+		"oAP": "\/fonts\/TiemposHeadlineWeb-Bold.woff2",
 		"oF": 0
 		},
 	"\/img\/aura-logo.png": {
