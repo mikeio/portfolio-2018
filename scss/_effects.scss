@@ -3,12 +3,14 @@
 	position: relative;
 }
 
+#home__section,
 #home__section .row,
 #scroll_down,
 #work__section .row,
 #view_projects,
 #resume__section .row,
 #contact__section .row,
+#contact__section #contact_container,
 #copyright {
 	z-index: 3;
 	position: relative;
@@ -21,7 +23,7 @@
 	span {
 		position: relative;
 		display: inline-block;
-		transition: transform 0.3s;
+		transition: transform 0.33s;
 		padding: 6px 0;
 
 		&::before {

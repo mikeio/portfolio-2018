@@ -73,7 +73,7 @@ $(window).load(function() {
 
 // Hide Down Arrow
 $(window).scroll(function(){
-	$("#scroll_down").css("opacity", 1 - $(window).scrollTop() / 500);
+	$("#scroll_down").css("opacity", 1 - $(window).scrollTop() / 550);
 });
 
 // Block Reveal
