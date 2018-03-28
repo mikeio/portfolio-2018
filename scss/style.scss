@@ -453,6 +453,7 @@ hr {
 			background-image: url('../img/swirl02.png');
 			background-size: auto 100%;
 			background-repeat: no-repeat;
+			will-change: background-position;
 		}
 
 		.work_item {

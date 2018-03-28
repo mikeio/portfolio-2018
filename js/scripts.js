@@ -66,7 +66,7 @@ $(window).load(function() {
     if ($(window).width() > 1280){  
         $(window).scroll(function () {
             var st = $(this).scrollTop();
-            swirl02.css({'background-position':'center calc(0% + '+(st*-.133)+'px)'});
+            swirl02.css({'background-position':'center calc(0% + '+(st*-.125)+'px)'});
     });
 }   
 });
