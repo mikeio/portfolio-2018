@@ -12,9 +12,9 @@ $dark-paragraph:			#8e8e90;
 @import "fonts";
 @import "effects";
 
-ddiv {
-	border: 1px solid red;
-}
+// div {
+// 	border: 1px solid red;
+// }
 
 html {
 	font-size: 16px;
@@ -732,7 +732,7 @@ hr {
 		}
 
 		h1 {
-			margin-top: -5px;
+			margin-top: -10px;
 
 			&:first-of-type {
 				margin-right: 0;
@@ -742,6 +742,10 @@ hr {
 
 	#work__section {
 		padding: 9rem 1rem;
+
+		h1 {
+			margin-top: .875rem;
+		}
 
 		.title_hr {
 
@@ -779,6 +783,10 @@ hr {
 		padding: 9rem 1rem 10rem;
 		overflow: hidden;
 
+		h1 {
+			margin-top: .875rem;
+		}
+
 		.title_hr {
 
 			hr {
@@ -806,7 +814,7 @@ hr {
 		padding: 8rem 1rem 7rem;
 
 		h1 {
-			margin-top: -5px;
+			margin-top: -10px;
 		}
 
 		#say_hello {
@@ -883,10 +891,6 @@ hr {
 
 	#home__section {
 		padding: 6rem 1rem 11rem;
-
-		h1 {
-			margin-top: 0;
-		}
 
 		h4 {
 			margin-top: 2px;
@@ -999,10 +1003,6 @@ hr {
   			margin-top: auto;
   		}
 
-		h1 {
-			margin-top: -7px;
-		}
-
 		.social_icons {
 			margin: 3rem 0 0;
 
@@ -1085,10 +1085,6 @@ hr {
 
 		#swirl01 {
 			height: 110%;
-		}
-
-		h1 {
-			margin-top: -7px;
 		}
 
 		#contact_details {
