@@ -9,6 +9,17 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/css\/animate-min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -58,13 +69,6 @@
 		"oAP": "\/css\/style.min-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
 		},
 	"\/fonts\/TiemposHeadlineWeb-Bold.eot": {
 		"cB": 0,
@@ -129,10 +133,10 @@
 		},
 	"\/img\/favicon\/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 15260,
-		"oA": 1,
+		"iS": 20118,
+		"oA": 0,
 		"oAP": "\/img\/favicon\/android-chrome-192x192.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -140,10 +144,10 @@
 		},
 	"\/img\/favicon\/android-chrome-256x256.png": {
 		"ft": 32768,
-		"iS": 21616,
-		"oA": 1,
+		"iS": 29114,
+		"oA": 0,
 		"oAP": "\/img\/favicon\/android-chrome-256x256.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -151,10 +155,10 @@
 		},
 	"\/img\/favicon\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 10581,
-		"oA": 1,
+		"iS": 13426,
+		"oA": 0,
 		"oAP": "\/img\/favicon\/apple-touch-icon.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -163,16 +167,16 @@
 	"\/img\/favicon\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/img\/favicon\/browserconfig.xml",
-		"oF": 1
+		"oF": 0
 		},
 	"\/img\/favicon\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 872,
-		"oA": 1,
+		"iS": 1133,
+		"oA": 0,
 		"oAP": "\/img\/favicon\/favicon-16x16.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -180,10 +184,10 @@
 		},
 	"\/img\/favicon\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1461,
-		"oA": 1,
+		"iS": 2419,
+		"oA": 0,
 		"oAP": "\/img\/favicon\/favicon-32x32.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -192,16 +196,16 @@
 	"\/img\/favicon\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/img\/favicon\/favicon.ico",
-		"oF": 1
+		"oF": 0
 		},
 	"\/img\/favicon\/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 8079,
-		"oA": 1,
+		"iS": 11728,
+		"oA": 0,
 		"oAP": "\/img\/favicon\/mstile-150x150.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -210,9 +214,9 @@
 	"\/img\/favicon\/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/img\/favicon\/safari-pinned-tab.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -220,9 +224,9 @@
 	"\/img\/favicon\/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/img\/favicon\/site.webmanifest",
-		"oF": 1
+		"oF": 0
 		},
 	"\/img\/loading.svg": {
 		"ft": 2097152,
@@ -375,13 +379,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/pdf\/mikepeters-resume.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pdf\/mikepeters-resume.pdf",
-		"oF": 0
 		},
 	"\/scss\/_effects.scss": {
 		"aP": 0,
