@@ -87,13 +87,13 @@ a.btn {
 	font-weight: 600;
 	display: inline-block;
 	overflow: hidden;
-	transition: all 0.3s ease-in-out;
-	transition-delay: .15s;
+	transition: all 0.25s ease-in-out;
+	transition-delay: .125s;
 
 	span {
 		position: relative;
 		display: inline-block;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.25s ease-in-out;
 
 		&::before {
 			position: absolute;
