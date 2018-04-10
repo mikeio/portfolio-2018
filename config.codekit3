@@ -7,7 +7,7 @@
 		"uuidString": "835ED39E-2B70-47CC-8C00-86B75E24C59C"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/css\/animate-min.css": {
 		"aP": 0,
@@ -431,7 +431,8 @@
 	"creationDate": 541295008,
 	"displayValue": "portfolio-2018",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_purple"
+	"iconImageName": "\/img\/favicon\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2234,6 +2235,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
