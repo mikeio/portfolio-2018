@@ -61,41 +61,41 @@ $(window).load(function() {
     // Rellax.js
     var rellax = new Rellax('.rellax');
 
+    // Block Reveal
+    (function() {
+      setTimeout(init, 0);
+    
+      function init() {
+        var rev1 = new RevealFx(document.querySelector("#rev-1"), {
+          revealSettings: {
+            backgroundColor: "#ffffff",
+            delay: 1.6,
+            onCover: function(contentEl, revealerEl) {
+              contentEl.style.opacity = 1;
+            }
+          }
+        });
+        rev1.reveal();
+    
+        var rev2 = new RevealFx(document.querySelector("#rev-2"), {
+          revealSettings: {
+            backgroundColor: "#ffffff",
+            delay: 1.9,
+            onCover: function(contentEl, revealerEl) {
+              contentEl.style.opacity = 1;
+            }
+          }
+        });
+        rev2.reveal();
+      }
+    })();
+
 });
 
 // Hide Down Arrow
 $(window).scroll(function(){
 	$("#scroll_down").css("opacity", 1 - $(window).scrollTop() / 350);
 });
-
-// Block Reveal
-(function() {
-  setTimeout(init, 0);
-
-  function init() {
-    var rev1 = new RevealFx(document.querySelector("#rev-1"), {
-      revealSettings: {
-        backgroundColor: "#ffffff",
-        delay: 1.6,
-        onCover: function(contentEl, revealerEl) {
-          contentEl.style.opacity = 1;
-        }
-      }
-    });
-    rev1.reveal();
-
-    var rev2 = new RevealFx(document.querySelector("#rev-2"), {
-      revealSettings: {
-        backgroundColor: "#ffffff",
-        delay: 1.9,
-        onCover: function(contentEl, revealerEl) {
-          contentEl.style.opacity = 1;
-        }
-      }
-    });
-    rev2.reveal();
-  }
-})();
 
 // Helper vars and functions.
 function extend(a, b) {
