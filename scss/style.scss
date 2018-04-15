@@ -54,7 +54,7 @@ h4 {
 	font-size: 0.750em;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 	margin: 0;
 }
 
@@ -84,7 +84,7 @@ a.btn {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	padding: 1.125rem 1.35rem;
-	font-weight: 600;
+	font-weight: 500;
 	display: inline-block;
 	overflow: hidden;
 	transition: all 0.25s ease-in-out;
@@ -160,9 +160,30 @@ hr {
   	justify-content: center;
   	align-items: center;
 
-    img {
-  		max-width: 60px;
-    }
+  	.loader_container {
+  		max-width: 50px;
+  	}
+
+  	.loader {
+	  animation: float 2s ease-out infinite;
+	  will-change: transform;
+	  animation-delay: .3s;
+	}
+	
+	.shadow_container {
+	  width: 100%;
+	}
+	
+	.shadow {
+	  animation: shrink 2s ease-out infinite;
+	  transform-origin: center center;
+	  will-change: transform;
+	  animation-delay: .3s;
+
+	  ellipse {
+	    transform-origin: center center;
+	  }
+	}
 }
 
 
@@ -224,7 +245,7 @@ hr {
 			font-size: 0.813em;
 			letter-spacing: 3px;
 			text-transform: uppercase;
-			font-weight: 600;
+			font-weight: 500;
 			margin-bottom: .75rem;
 			color: $dark-paragraph;
 		}
@@ -875,6 +896,12 @@ hr {
 		}
 	}
 
+	#hola {
+		.loader_container {
+  			max-width: 55px;
+  		}
+	}
+
 	#header {
 		padding: 2.750em 2rem;
 
@@ -981,6 +1008,12 @@ hr {
 	a.btn {
 		padding: 1.875em 2.500em;
 		font-size: 0.750em;
+	}
+
+	#hola {
+		.loader_container {
+  			max-width: 58px;
+  		}
 	}
 
 	#header {

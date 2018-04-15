@@ -23,21 +23,21 @@ $(window).load(function() {
 
 	// Preloader
 	setTimeout(function(){
-        $('#hola img').velocity({
-            opacity : 0.1,
-            translateY: "-80px"
-        }, {
-            duration: 350,
-            complete: function(){
+    $('#hola .loader_container').velocity({
+        opacity : 0.1,
+        translateY: "-100%"
+    }, {
+        duration: 350,
+          complete: function(){
             $('#hola').velocity({
-            translateY : "-100%"
-        }, {
-            duration: 900,
-            easing: [0.7,0,0.3,1],
-        })  
-            }
-        })
-    },300)
+              translateY : "-100%"
+            }, {
+                duration: 900,
+                easing: [0.7,0,0.3,1],
+            })  
+          }
+    })
+  },300)
 
 	// Define Wow Options
 	var wow = new WOW({
