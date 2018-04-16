@@ -167,7 +167,7 @@ hr {
   	.loader {
 	  animation: float 2s ease-out infinite;
 	  will-change: transform;
-	  animation-delay: .6s;
+	  animation-delay: 2s;
 	}
 	
 	.shadow_container {
@@ -181,7 +181,7 @@ hr {
 	  animation: shrink 2s ease-out infinite;
 	  transform-origin: center center;
 	  will-change: transform;
-	  animation-delay: .6s;
+	  animation-delay: 2s;
 
 	  ellipse {
 	    transform-origin: center center;
