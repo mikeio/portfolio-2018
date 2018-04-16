@@ -920,7 +920,7 @@ hr {
 	}
 
 	#home__section {
-		padding: 6rem 1rem 11rem;
+		padding: 5.5rem 1rem 11rem;
 
 		h4 {
 			margin-top: 2px;
@@ -1035,8 +1035,9 @@ hr {
   		position: relative;
 
 
-  		.row {
+  		.row.top-xs {
   			margin-top: auto;
+  			margin-bottom: 20px;
   		}
 
 		.social_icons {
