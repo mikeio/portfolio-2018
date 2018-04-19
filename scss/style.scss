@@ -163,30 +163,6 @@ hr {
   	.loader_container {
   		max-width: 50px;
   	}
-
-  	.loader {
-	  animation: float 2s ease-out infinite;
-	  will-change: transform;
-	  animation-delay: 2s;
-	}
-	
-	.shadow_container {
-	  width: 70%;
-	  margin-left: auto;
-	  margin-right: auto;
-	  margin-top: 3px;
-	}
-	
-	.shadow {
-	  animation: shrink 2s ease-out infinite;
-	  transform-origin: center center;
-	  will-change: transform;
-	  animation-delay: 2s;
-
-	  ellipse {
-	    transform-origin: center center;
-	  }
-	}
 }
 
 
@@ -1047,7 +1023,7 @@ hr {
 
   		.row.top-xs {
   			margin-top: auto;
-  			margin-bottom: 15px;
+  			margin-bottom: 13px;
   		}
 
 		.social_icons {

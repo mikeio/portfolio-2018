@@ -16,18 +16,6 @@
 	position: relative;
 }
 
-@keyframes float {
-  50% {
-     transform: translate(0, -33%);
-  }
-}
-
-@keyframes shrink {
-  50% {
-    transform: scale(1.33);
-  }
-}
-
 .slideUp {
 	display: inline-block;
 	overflow: hidden;
