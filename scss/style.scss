@@ -511,6 +511,15 @@ hr {
 
 			.client_logo {
 				background: $white;
+				top: 0px;
+				position: relative;
+				transition: all .3s ease-in-out;
+
+				&:hover {
+					top: -10px;
+					transition: all .3s ease-in-out;
+					opacity: .75;
+				}
 			}
 
 		}
@@ -1038,7 +1047,7 @@ hr {
 
   		.row.top-xs {
   			margin-top: auto;
-  			margin-bottom: 33px;
+  			margin-bottom: 15px;
   		}
 
 		.social_icons {
