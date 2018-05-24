@@ -116,6 +116,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/displacement_map.jpg": {
+		"ft": 16384,
+		"iS": 45677,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/displacement_map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/etc\/signature.png": {
 		"ft": 32768,
 		"iS": 3085,
@@ -366,23 +377,23 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/wave.js": {
+	"\/js\/waterify.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/wave-min.js",
+		"oAP": "\/js\/waterify.min-min.js",
 		"oF": 1,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/wow.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/wow.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},

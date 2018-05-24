@@ -150,6 +150,16 @@ hr {
 	margin: 0 auto;
 }
 
+canvas,
+#swirl01 img,
+#swirl02 img,
+#swirl03 img,
+#swirl04 img
+ {
+	width: 100%;
+	height: 100%;
+}
+
 #hola{
     width: 100%;
     height: 100%;
@@ -383,17 +393,14 @@ hr {
 
 #main_container {
 	position: relative;
+	overflow: hidden;
 
 	#swirl01 {
 		position: absolute;
 		left: 50%;
 		top: 0;
-		width: 50%;
+		width: 100%;
 		height: 107%;
-		background-image: url('../img/swirl01.png');
-		background-size: auto 100%;
-		background-repeat: no-repeat;
-		background-position: 0 0;
 	}
 }
 
@@ -451,10 +458,7 @@ hr {
 			overflow: hidden;
 
 			#swirl02 {
-				background-image: url('../img/swirl02.png');
-				background-size: auto 100%;
-				background-repeat: no-repeat;
-				width: 100%;
+				width: 200%;
 				height: 100%;
 			}
 		}
@@ -522,14 +526,10 @@ hr {
 	#swirl03 {
 		content: '';
 		position: absolute;
-		left: 0;
+		left: 0%;
 		top: 0;
 		width: 50%;
 		height: 100%;
-		background-image: url('../img/swirl03.png');
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		background-position: top right;
 	}
 
 
@@ -609,16 +609,12 @@ hr {
 		overflow: hidden;
 	}
 
-	#swirl01 {
+	#swirl04 {
 		position: absolute;
 		left: 50%;
 		top: 0;
-		width: 50%;
+		width: 200%;
 		height: 100%;
-		background-image: url('../img/swirl01.png');
-		background-size: auto 100%;
-		background-repeat: no-repeat;
-		background-position: 0 0;
 	}
 
 	#say_hello {
@@ -880,7 +876,7 @@ hr {
 	#main_container {
 
 		#swirl01 {
-			background-size: 100% 100%;
+			width: 50%;
 		}
 	}
 
@@ -921,7 +917,7 @@ hr {
 			#swirl_container {
 
 				#swirl02 {
-					background-size: 100% 100%;
+					width: 100%;
 				}
 
 			}
@@ -950,8 +946,8 @@ hr {
 	#contact__section {
 		padding: 10rem 1rem 9rem;
 
-		#swirl01 {
-			background-size: 100% 100%;
+		#swirl04 {
+			width: 50%;
 		}
 
 		h4 {
@@ -1106,7 +1102,7 @@ hr {
 	#contact__section {
 		padding: 13rem 1rem 11rem;
 
-		#swirl01 {
+		#swirl04 {
 			height: 110%;
 		}
 
