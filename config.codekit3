@@ -235,6 +235,17 @@
 		"oAP": "\/img\/favicon\/site.webmanifest",
 		"oF": 0
 		},
+	"\/img\/livenation-logo.png": {
+		"ft": 32768,
+		"iS": 26861,
+		"oA": 0,
+		"oAP": "\/img\/livenation-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/loading.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -254,6 +265,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/mm15@2x.png": {
+		"ft": 32768,
+		"iS": 692246,
+		"oA": 0,
+		"oAP": "\/img\/mm15@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/sendgrid-logo.png": {
 		"ft": 32768,
