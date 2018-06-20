@@ -94,11 +94,11 @@
 		"oAP": "\/fonts\/TiemposHeadlineWeb-Bold.woff2",
 		"oF": 0
 		},
-	"\/img\/aura-logo.png": {
+	"\/img\/.aura_logo@2x~imageoptim.png": {
 		"ft": 32768,
-		"iS": 6651,
+		"iS": 3089,
 		"oA": 0,
-		"oAP": "\/img\/aura-logo.png",
+		"oAP": "\/img\/.aura_logo@2x~imageoptim.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -107,7 +107,7 @@
 		},
 	"\/img\/aura@2x.png": {
 		"ft": 32768,
-		"iS": 162560,
+		"iS": 118218,
 		"oA": 0,
 		"oAP": "\/img\/aura@2x.png",
 		"oF": 0,
@@ -235,17 +235,6 @@
 		"oAP": "\/img\/favicon\/site.webmanifest",
 		"oF": 0
 		},
-	"\/img\/livenation-logo.png": {
-		"ft": 32768,
-		"iS": 26861,
-		"oA": 0,
-		"oAP": "\/img\/livenation-logo.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/loading.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -268,20 +257,20 @@
 		},
 	"\/img\/mm15@2x.png": {
 		"ft": 32768,
-		"iS": 692246,
+		"iS": 198825,
 		"oA": 0,
 		"oAP": "\/img\/mm15@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/sendgrid-logo.png": {
+	"\/img\/mm15_logo@2x.png": {
 		"ft": 32768,
-		"iS": 12371,
+		"iS": 9850,
 		"oA": 0,
-		"oAP": "\/img\/sendgrid-logo.png",
+		"oAP": "\/img\/mm15_logo@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -290,12 +279,23 @@
 		},
 	"\/img\/sendgrid@2x.png": {
 		"ft": 32768,
-		"iS": 219760,
+		"iS": 211212,
 		"oA": 0,
 		"oAP": "\/img\/sendgrid@2x.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/sendgrid_logo@2x.png": {
+		"ft": 32768,
+		"iS": 4504,
+		"oA": 0,
+		"oAP": "\/img\/.sendgrid_logo@2x~imageoptim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -311,12 +311,12 @@
 		},
 	"\/img\/swirl01.png": {
 		"ft": 32768,
-		"iS": 302803,
+		"iS": 273696,
 		"oA": 0,
 		"oAP": "\/img\/swirl01.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -333,12 +333,12 @@
 		},
 	"\/img\/swirl03.png": {
 		"ft": 32768,
-		"iS": 70613,
+		"iS": 62012,
 		"oA": 0,
 		"oAP": "\/img\/swirl03.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
