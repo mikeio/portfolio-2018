@@ -107,12 +107,12 @@
 		},
 	"\/img\/aura_logo@2x.png": {
 		"ft": 32768,
-		"iS": 3089,
+		"iS": 3195,
 		"oA": 0,
 		"oAP": "\/img\/aura_logo@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -268,12 +268,12 @@
 		},
 	"\/img\/mm15_logo@2x.png": {
 		"ft": 32768,
-		"iS": 9850,
+		"iS": 10140,
 		"oA": 0,
 		"oAP": "\/img\/mm15_logo@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -295,7 +295,7 @@
 		"oAP": "\/img\/.sendgrid_logo@2x~imageoptim.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
