@@ -328,7 +328,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-<script src="js/waterify.min.js"></script>
+
+<script>
+	var width = window.innerWidth
+	|| document.documentElement.clientWidth
+	|| document.body.clientWidth;
+	
+	if ( width >= 1280) {
+	document.write('<script src="js/waterify.min.js"><\/script>');
+	}
+</script>
+
 <script type="text/javascript" src="js/scripts.js"></script>
 
 
