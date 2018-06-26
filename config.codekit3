@@ -116,6 +116,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/breederscup@2x.png": {
+		"ft": 32768,
+		"iS": 254365,
+		"oA": 0,
+		"oAP": "\/img\/breederscup@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/breederscup_logo@2x.png": {
+		"ft": 32768,
+		"iS": 9147,
+		"oA": 0,
+		"oAP": "\/img\/breederscup_logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/displacement_map.jpg": {
 		"ft": 16384,
 		"iS": 47221,
@@ -312,11 +334,11 @@
 		},
 	"\/img\/sendgrid_logo@2x.png": {
 		"ft": 32768,
-		"iS": 4504,
+		"iS": 4254,
 		"oA": 0,
-		"oAP": "\/img\/.sendgrid_logo@2x~imageoptim.png",
+		"oAP": "\/img\/sendgrid_logo@2x.png",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
