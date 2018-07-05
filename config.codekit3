@@ -94,6 +94,28 @@
 		"oAP": "\/fonts\/TiemposHeadlineWeb-Bold.woff2",
 		"oF": 0
 		},
+	"\/img\/audi@2x.png": {
+		"ft": 32768,
+		"iS": 343808,
+		"oA": 0,
+		"oAP": "\/img\/audi@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/audi_logo@2x.png": {
+		"ft": 32768,
+		"iS": 6715,
+		"oA": 0,
+		"oAP": "\/img\/audi_logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/aura@2x.png": {
 		"ft": 32768,
 		"iS": 118218,
@@ -107,7 +129,7 @@
 		},
 	"\/img\/aura_logo@2x.png": {
 		"ft": 32768,
-		"iS": 3001,
+		"iS": 2778,
 		"oA": 0,
 		"oAP": "\/img\/.aura_logo@2x~imageoptim.png",
 		"oF": 0,
@@ -129,7 +151,7 @@
 		},
 	"\/img\/breederscup_logo@2x.png": {
 		"ft": 32768,
-		"iS": 9147,
+		"iS": 8379,
 		"oA": 0,
 		"oAP": "\/img\/breederscup_logo@2x.png",
 		"oF": 0,
@@ -256,6 +278,28 @@
 		"oA": 2,
 		"oAP": "\/img\/favicon\/site.webmanifest",
 		"oF": 0
+		},
+	"\/img\/helix@2x.png": {
+		"ft": 32768,
+		"iS": 188862,
+		"oA": 0,
+		"oAP": "\/img\/helix@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/helix_logo@2x.png": {
+		"ft": 32768,
+		"iS": 3489,
+		"oA": 0,
+		"oAP": "\/img\/helix_logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/honda@2x.png": {
 		"ft": 32768,
@@ -386,6 +430,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/toyota@2x.png": {
+		"ft": 32768,
+		"iS": 434455,
+		"oA": 0,
+		"oAP": "\/img\/.toyota@2x~imageoptim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/toyota_logo@2x.png": {
+		"ft": 32768,
+		"iS": 3378,
+		"oA": 0,
+		"oAP": "\/img\/toyota_logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/wave01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -462,6 +528,13 @@
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/pdf\/mikepeters-resume.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pdf\/mikepeters-resume.pdf",
+		"oF": 0
 		},
 	"\/scss\/_effects.scss": {
 		"aP": 0,
