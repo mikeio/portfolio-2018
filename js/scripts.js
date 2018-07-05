@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	// Smooth Scroll
 	$('a').click(function(){
-	    var top = $('body').find($(this).attr('href')).offset().top;
+	    var top = $('html,body').find($(this).attr('href')).offset().top;
 	    $('html, body').animate({
 	        scrollTop: top
 	    },1200, 'easeInOutCubic');
@@ -17,6 +17,23 @@ $(document).ready(function(){
         $('#nav-mobile').slideToggle(450); // Slide In
         $('#nav-mobile ul').toggleClass('js-menu__open'); // Fade in
     });
+});
+
+$('#extras').hide();
+$('#view-more').click(function(event) {
+    $('#extras').slideToggle(1200);
+    event.stopPropagation();
+    $('html,body').delay(100).animate({
+            scrollTop: $("#extras").offset().top + 1
+        }, 1200, function() {
+        // Animation complete.
+      });
+    $( "#view-more-container" ).delay(750).velocity({
+        width: "toggle",
+        opacity: "0"
+      }, 450, function() {
+        // Animation complete.
+      });
 });
 
 $(window).load(function() {

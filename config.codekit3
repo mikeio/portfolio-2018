@@ -129,7 +129,7 @@
 		},
 	"\/img\/breederscup_logo@2x.png": {
 		"ft": 32768,
-		"iS": 8379,
+		"iS": 9147,
 		"oA": 0,
 		"oAP": "\/img\/breederscup_logo@2x.png",
 		"oF": 0,
@@ -462,13 +462,6 @@
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/pdf\/mikepeters-resume.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pdf\/mikepeters-resume.pdf",
-		"oF": 0
 		},
 	"\/scss\/_effects.scss": {
 		"aP": 0,

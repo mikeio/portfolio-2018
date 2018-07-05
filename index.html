@@ -50,7 +50,7 @@
 				data-waterify 
 				data-waterify-speed="1.75" 
 				data-waterify-amount="100" 
-				data-waterify-ease="0"
+				data-waterify-ease="300"
 				data-waterify-displacement-url="img/displacement_map.jpg" />
 		</div>
 
@@ -81,7 +81,7 @@
 					<h4 class="wow fadeInLeft" data-wow-delay=".8s">About Me</h4>
 				</div>
 				<div class="col-xs-12 col-sm-7">
-					<h1 id="rev-1">A digital designer</h1><br>
+					<h1 id="rev-1">A Digital Designer</h1><br>
 					<h1 id="rev-2">from Atlanta, Georgia.</h1>
 					<p class="wow fadeInUp" data-wow-delay="1.9s">Hello! I’m Mike. I help agencies and creative studios build user interfaces and&nbsp;digital interactive experiences.</p>
 					<div class="social_icons wow fadeInUp" data-wow-delay="2s">
@@ -155,17 +155,17 @@
 						</div>
 					</div>
 					<div class="col-xs-3 col-sm-2 wow fadeInUp">
-						<div class="client_logo rellax" data-rellax-speed=".5">
+						<div class="client_logo rellax" data-rellax-speed=".5" data-rellax-percentage="0">
 							<a href="https://www.behance.net/gallery/56956963/Aura-Financial" target="_blank"><img src="img/aura_logo@2x.png"></a>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="work_item">
+			<div class="work_item" id="last">
 				<div class="row bottom-xs">
 					<div class="col-xs-3 col-sm-offset-2 col-sm-2 wow fadeInUp">
-						<div class="client_logo rellax" data-rellax-speed=".5">
+						<div class="client_logo rellax" data-rellax-speed=".5" data-rellax-percentage="0">
 							<a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers" target="_blank"><img src="img/honda_logo@2x.png"></a>
 						</div>
 					</div>
@@ -177,13 +177,52 @@
 				</div>
 			</div>
 
-			<div id="view_projects" class="wow fadeInUp">
+			<div id="extras">
+
+				<div class="work_item" id="first">
+					<div class="row bottom-xs">
+						<div class="col-xs-9 col-sm-offset-3 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+							<div class="single_item">
+								<a href="https://www.behance.net/gallery/61515197/SendGrid-Redesign" target="_blank"><img src="img/sendgrid@2x.png"></a>
+							</div>
+						</div>
+						<div class="col-xs-3 col-sm-2 wow fadeInUp" data-wow-delay=".3s">
+							<div class="client_logo rellax" data-rellax-speed=".5" data-rellax-percentage="2.4">
+								<a href="https://www.behance.net/gallery/61515197/SendGrid-Redesign" target="_blank"><img src="img/sendgrid_logo@2x.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="work_item" id="last">
+					<div class="row bottom-xs">
+						<div class="col-xs-3 col-sm-offset-2 col-sm-2 wow fadeInUp" data-wow-delay=".4s">
+							<div class="client_logo rellax" data-rellax-speed=".5" data-rellax-percentage="2.4">
+								<a href="https://www.behance.net/gallery/66973439/Music-Midtown-2015" target="_blank"><img src="img/mm15_logo@2x.png	"></a>
+							</div>
+						</div>
+						<div class="col-xs-9 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+							<div class="single_item">
+								<a href="https://www.behance.net/gallery/66973439/Music-Midtown-2015" target="_blank"><img src="img/mm15@2x.png"></a	>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="view_projects">
 				<div class="row middle-xs">
-					<div class="col-xs-3 col-sm-offset-1 col-sm-2">
+					<div class="col-xs-3 col-sm-offset-1 col-sm-2 wow fadeInUp">
 						<hr>
 					</div>
-					<div class="col-xs-9 col-sm-7">
-						<a href="https://www.behance.net/mikeio" target="_blank" class="btn btn-dark"><span data-hover="View All Projects »">View All Projects »</span></a>
+					<div class="col-xs-12 col-sm-8">
+						<div id="view-more-container">
+							<a id="view-more" class="btn btn-light wow fadeInUp" data-wow-delay=".1s"><span data-hover="View More »">View More »</span></a>
+						</div>
+						<div id="view-all-container">
+							<a href="https://www.behance.net/mikeio" target="_blank" class="btn btn-dark wow fadeInUp" data-wow-delay=".2s"><span data-hover="View All Projects »">View All Projects »</span></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -218,7 +257,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-offset-3 col-sm-7">
+			<div class="col-xs-12 col-sm-offset-3 col-sm-8">
 				<h1 class="wow fadeInUp">My Experience.</h1>
 				<p class="wow fadeInUp">Over the past eight years, I've had the pleasure of working with a wide variety of brands across the entertainment, automotive and financial industries.</p>
 				<div id="view_resume">
@@ -245,7 +284,7 @@
 			</div>
 		</div>
 
-		<div id="contact_container" class="rellax" data-rellax-speed="-3" data-rellax-percentage="0.45">
+		<div id="contact_container">
 			<div class="row top-xs">
 				<div class="col-xs-12 col-sm-offset-1 col-sm-2 wow fadeInLeft"> 
 					<h4>Contact</h4>
@@ -259,7 +298,7 @@
 								<hr>
 							</div>
 							<div class="col-xs-10 col-sm-9">
-								<a href="mailto:info@mikepeters.io?subject=Hello" class="btn btn-alt"><span data-hover="Say Hello »">Say Hello »</span></a>
+								<a href="mailto:info@mikepeters.io?subject=Hello" target="_blank" class="btn btn-alt"><span data-hover="Say Hello »">Say Hello »</span></a>
 							</div>
 						</div>
 					</div>
@@ -269,7 +308,7 @@
 				<div class="row top-xs">
 					<div class="col-xs-12 col-sm-offset-3 col-sm-3 wow fadeInUp" data-wow-delay="0s">
 						<h4>Email</h4>
-						<p><a href="mailto:info@mikepeters.io?subject=Hello">info@mikepeters.io</a></p>
+						<p><a href="mailto:info@mikepeters.io?subject=Hello" target="_blank">info@mikepeters.io</a></p>
 					</div>
 					<div class="col-xs-12 col-sm-3 wow fadeInUp" data-wow-delay=".1s">
 						<div id="phone">
@@ -311,8 +350,8 @@
 	<ul>
 		<li><h4>Navigation</h4></li>
 		<li><a href="#work">Work.</a></li>
-		<li><a href="#resume" target="_blank">Resume.</a></li>
-		<li><a href="#contact" target="_blank">Contact.</a></li>
+		<li><a href="#resume">Resume.</a></li>
+		<li><a href="#contact">Contact.</a></li>
 		<li class="social"><a href="https://www.behance.net/mikeio" target="_blank"><i class="fab fa-behance"></i></a></li>
 		<li class="social"><a href="https://github.com/mikeio" target="_blank"><i class="fab fa-github-alt"></i></a></li>
 		<li class="social"><a href="https://www.linkedin.com/in/mikepetersio/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>

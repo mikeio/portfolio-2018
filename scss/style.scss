@@ -351,7 +351,7 @@ canvas,
 
 #home__section {
 	position: relative;
-	padding: 1.75rem 1rem 5rem;
+	padding: 3rem 1rem 6.5rem;
 
 	h1 {
 		visibility: hidden;
@@ -408,6 +408,10 @@ canvas,
 
 #work__section {
 	position: relative;
+	padding: 6rem 1rem 5rem;
+	background: $white;
+	margin: 0 auto;
+	background-image: linear-gradient(-1deg, #F4F7F6 55%, #FFFFFF 100%);
 
 	&::before {
 		position: absolute;
@@ -421,11 +425,6 @@ canvas,
 		content: '';
 		transform: translateY(-98%);
 	}
-
-	padding: 5rem 1rem;
-	background: $white;
-	margin: 0 auto;
-	background-image: linear-gradient(-1deg, #F4F7F6 55%, #FFFFFF 100%);
 
 	.title_hr {
 
@@ -450,6 +449,10 @@ canvas,
 		position: relative;
 		margin-top: 2rem;
 
+		#last {
+			margin-bottom: 0;
+		}
+
 		#swirl_container {
 			position: absolute;
 			left: -1rem;
@@ -461,6 +464,14 @@ canvas,
 			#swirl02 {
 				width: 200%;
 				height: 100%;
+				max-height: 700px;
+			}
+		}
+
+		#extras {
+
+			#first {
+				padding-top: 2.5rem;
 			}
 		}
 
@@ -514,12 +525,31 @@ canvas,
 				margin-left: .5rem;
 				opacity: .07;
 			}
+
+			.btn {
+				margin-right: 1rem;
+				margin-bottom: 1rem;
+			}
+
+			.col-xs-3 {
+				display: none;
+			}
+
+			#view-more-container,
+			#view-all-container {
+				display: inline-flex;
+			}
+
+			#view-more {
+				cursor: pointer;
+				white-space: nowrap;
+			}
 		}
 	}
 }
 
 #resume__section {
-	padding: 5rem 1rem 6rem;
+	padding: 6rem 1rem;
 	background: #fff;
 	position: relative;
 	overflow: hidden;
@@ -584,7 +614,7 @@ canvas,
 
 #contact__section {
 	position: relative;
-	padding: 5rem 1rem;
+	padding: 6rem 1rem;
 
 	&::before {
 		position: absolute;
@@ -738,10 +768,10 @@ canvas,
 	}
 
 	#home__section {
-		padding: 5rem 1rem 9rem;
+		padding: 7rem 1rem 10rem;
 
 		.social_icons {
-			margin: 2rem 0 0;
+			margin: 1.5rem 0 0;
 		}
 
 		h1 {
@@ -754,7 +784,7 @@ canvas,
 	}
 
 	#work__section {
-		padding: 9rem 1rem;
+		padding: 10rem 1rem;
 
 		h1 {
 			margin-top: .675rem;
@@ -780,6 +810,13 @@ canvas,
 			#swirl_container {
 				top: -2rem;
 			}
+
+			#extras {
+
+				#first {
+					padding-top: 3rem;
+				}
+			}
 	
 			.work_item {
 				margin-bottom: 3rem;
@@ -787,13 +824,21 @@ canvas,
 
 			#view_projects {
 				margin-top: 4rem;
+
+				.col-xs-3 {
+					display: block;
+				}
+
+				.btn {
+					margin-bottom: 0;
+				}
 			}
 
 		}
 	}
 
 	#resume__section {
-		padding: 9rem 1rem 10rem;
+		padding: 10rem 1rem 11rem;
 		overflow: hidden;
 
 		h1 {
@@ -824,7 +869,7 @@ canvas,
 	}
 
 	#contact__section {
-		padding: 8rem 1rem 7rem;
+		padding: 9rem 1rem 7rem;
 
 		h1 {
 			margin-top: -12px;
@@ -909,7 +954,11 @@ canvas,
 	}
 
 	#home__section {
-		padding: 5.5rem 1rem 11rem;
+		padding: 8rem 1rem 12rem;
+
+		.social_icons {
+    		
+		}
 
 		h4 {
 			margin-top: 2px;
@@ -917,7 +966,7 @@ canvas,
 	}
 
 	#work__section {
-		padding: 11rem 1rem;
+		padding: 12rem 1rem;
 
 		#project_container {
 
@@ -942,16 +991,35 @@ canvas,
 					}
 				}
 			}
+
+			#extras {
+
+				.work_item {
+					&:nth-of-type(1) {
+						.client_logo {
+							margin-left: .5rem;
+							margin-right: 0;
+						}
+					}
+		
+					&:nth-of-type(2) {
+						.client_logo {
+							margin-right: .5rem;
+							margin-left: 0;
+						}
+					}
+				}
+			}
 		}
 	}
 
 	#resume__section {
-		padding: 11rem 1rem 14rem;
+		padding: 12rem 1rem 13rem;
 	}
 
 
 	#contact__section {
-		padding: 10rem 1rem 9rem;
+		padding: 10rem 1rem 8rem;
 
 		#swirl04 {
 			width: 55%;
@@ -1030,7 +1098,7 @@ canvas,
   		}
 
 		.social_icons {
-			margin: 2.75rem 0 0;
+			margin: 2.5rem 0 0;
 
 			.svg-inline--fa {
 				margin: 0 23px 0 0;
@@ -1054,11 +1122,19 @@ canvas,
 			margin-bottom: .5rem;
 		}
 
+
 		#project_container {
 			margin-top: 5rem;
 	
 			#swirl_container {
 				top: -3.5rem;
+			}
+
+			#extras {
+
+				#first {
+					padding-top: 4.375em;
+				}
 			}
 	
 			.work_item {
@@ -1077,15 +1153,39 @@ canvas,
 				}
 			}
 
+			#extras {
+				
+				.work_item {
+					&:nth-of-type(1) {
+						.client_logo {
+							margin-left: 1rem;
+							margin-right: 0;
+						}
+					}
+		
+					&:nth-of-type(2) {
+						.client_logo {
+							margin-right: 1rem;
+							margin-left: 0;
+						}
+					}
+				}
+			}
+
 			#view_projects {
 				margin-top: 5.625em;
+
+				.btn {
+					margin-right: 1.875em;
+					margin-bottom: 0;
+				}
 			}
 
 		}
 	}
 
 	#resume__section {
-		padding: 13rem 1rem 16rem;
+		padding: 13rem 1rem 15rem;
 
 		.title_hr {
 			margin-bottom: .5rem;
@@ -1107,7 +1207,7 @@ canvas,
 
 
 	#contact__section {
-		padding: 13rem 1rem 11.5rem;
+		padding: 11rem 1rem 9rem;
 
 		#swirl04 {
 			height: 115%;
