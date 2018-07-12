@@ -107,7 +107,7 @@
 		},
 	"\/img\/audi_logo@2x.png": {
 		"ft": 32768,
-		"iS": 6331,
+		"iS": 6715,
 		"oA": 0,
 		"oAP": "\/img\/audi_logo@2x.png",
 		"oF": 0,
@@ -151,7 +151,7 @@
 		},
 	"\/img\/breederscup_logo@2x.png": {
 		"ft": 32768,
-		"iS": 9147,
+		"iS": 8379,
 		"oA": 0,
 		"oAP": "\/img\/breederscup_logo@2x.png",
 		"oF": 0,
@@ -343,17 +343,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/mercedes@2x.png": {
-		"ft": 32768,
-		"iS": 949472,
-		"oA": 0,
-		"oAP": "\/img\/mercedes@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/mm15@2x.png": {
 		"ft": 32768,
 		"iS": 198825,
@@ -438,17 +427,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/Thumbnail-Behance.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/img\/Thumbnail-Behance.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
