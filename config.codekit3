@@ -9,6 +9,27 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
+	"\/.well-known\/acme-challenge\/exYBCE2vcLTohEbV5-hWXi7EkP3YBt7ulG0t_fVLqRA": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.well-known\/acme-challenge\/exYBCE2vcLTohEbV5-hWXi7EkP3YBt7ulG0t_fVLqRA",
+		"oF": 0
+		},
+	"\/.well-known\/acme-challenge\/pSTbGH-gOvKd7qfWligDUQDeF-_JuCPBC0G4RUcTNnI": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.well-known\/acme-challenge\/pSTbGH-gOvKd7qfWligDUQDeF-_JuCPBC0G4RUcTNnI",
+		"oF": 0
+		},
 	"\/css\/animate-min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -107,7 +128,7 @@
 		},
 	"\/img\/audi_logo@2x.png": {
 		"ft": 32768,
-		"iS": 6331,
+		"iS": 6715,
 		"oA": 1,
 		"oAP": "\/img\/audi_logo@2x.png",
 		"oF": 1,
@@ -151,7 +172,7 @@
 		},
 	"\/img\/breederscup_logo@2x.png": {
 		"ft": 32768,
-		"iS": 9147,
+		"iS": 8379,
 		"oA": 1,
 		"oAP": "\/img\/breederscup_logo@2x.png",
 		"oF": 1,
@@ -539,13 +560,6 @@
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/pdf\/mikepeters-resume.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pdf\/mikepeters-resume.pdf",
-		"oF": 0
 		},
 	"\/scss\/_effects.scss": {
 		"aP": 0,
