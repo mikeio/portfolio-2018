@@ -128,7 +128,7 @@
 		},
 	"\/img\/audi_logo@2x.png": {
 		"ft": 32768,
-		"iS": 6715,
+		"iS": 6331,
 		"oA": 1,
 		"oAP": "\/img\/audi_logo@2x.png",
 		"oF": 1,
@@ -150,7 +150,7 @@
 		},
 	"\/img\/aura_logo@2x.png": {
 		"ft": 32768,
-		"iS": 3001,
+		"iS": 2778,
 		"oA": 1,
 		"oAP": "\/img\/.aura_logo@2x~imageoptim.png",
 		"oF": 1,
@@ -172,7 +172,7 @@
 		},
 	"\/img\/breederscup_logo@2x.png": {
 		"ft": 32768,
-		"iS": 8379,
+		"iS": 9147,
 		"oA": 1,
 		"oAP": "\/img\/breederscup_logo@2x.png",
 		"oF": 1,
@@ -560,6 +560,20 @@
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/pdf\/mikepeters-resume.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pdf\/mikepeters-resume.pdf",
+		"oF": 0
+		},
+	"\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots.txt",
+		"oF": 0
 		},
 	"\/scss\/_effects.scss": {
 		"aP": 0,
