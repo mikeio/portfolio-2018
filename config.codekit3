@@ -128,7 +128,7 @@
 		},
 	"\/img\/audi_logo@2x.png": {
 		"ft": 32768,
-		"iS": 6715,
+		"iS": 6331,
 		"oA": 1,
 		"oAP": "\/img\/audi_logo@2x.png",
 		"oF": 1,
@@ -172,7 +172,7 @@
 		},
 	"\/img\/breederscup_logo@2x.png": {
 		"ft": 32768,
-		"iS": 8379,
+		"iS": 9147,
 		"oA": 1,
 		"oAP": "\/img\/breederscup_logo@2x.png",
 		"oF": 1,
@@ -394,6 +394,28 @@
 		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/omega@2x.png": {
+		"ft": 32768,
+		"iS": 155502,
+		"oA": 0,
+		"oAP": "\/img\/omega@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/omega_logo@2x.png": {
+		"ft": 32768,
+		"iS": 3990,
+		"oA": 0,
+		"oAP": "\/img\/omega_logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
